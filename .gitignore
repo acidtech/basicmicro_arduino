@@ -1,3 +1,6 @@
+# Release automation script
+update.py
+
 # Arduino IDE build files
 *.o
 *.d
