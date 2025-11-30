@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0",
     "format": "json",
-    "last_updated": "2025-11-30T20:18:47.840728+00:00"
+    "last_updated": "2025-11-30T20:19:22.788553+00:00"
   },
   "groups": [
     {
@@ -112,6 +112,16 @@
               "timestamp": "2025-11-30T20:18:47.840545Z",
               "action": "intent",
               "details": "Push to basicmicro with credential helpers disabled"
+            },
+            {
+              "timestamp": "2025-11-30T20:19:13.538620Z",
+              "action": "intent",
+              "details": "Test acidtech token push"
+            },
+            {
+              "timestamp": "2025-11-30T20:19:22.788375Z",
+              "action": "intent",
+              "details": "Test acidtech token with credential helpers disabled"
             }
           ],
           "knowledge": []
@@ -267,6 +277,14 @@
           "content": "STOP REQUEST [NEED_USER_INPUT]: Token authenticates but lacks write permission. Check acidtech token has Contents: Read AND Write permission.",
           "type": "context",
           "added_at": "2025-11-30T20:17:54.731760Z",
+          "updated_at": null,
+          "related_tasks": []
+        },
+        {
+          "id": "005c12f5",
+          "content": "STOP REQUEST [AWAITING_REVIEW]: Steps 1-5 complete. Basicmicro repo has 1.0.2 tag. Ready for Arduino Library Manager submission (step 6) - user to submit PR to arduino/library-registry.",
+          "type": "context",
+          "added_at": "2025-11-30T20:19:06.473133Z",
           "updated_at": null,
           "related_tasks": []
         }
