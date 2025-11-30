@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "format": "json",
+    "last_updated": "2025-11-30T18:33:51.042387+00:00"
+  },
+  "groups": [
+    {
+      "name": "git-cleanup",
+      "description": "Fix line ending issues and clean up git state for Basicmicro Arduino library",
+      "tasks": [
+        {
+          "id": "e50bc909",
+          "name": "Planning",
+          "description": "# Planning for git-cleanup\n\n## Research Phase\nUse 3-5 Explore agents to gather perspectives on implementation.\n\n## Implementation Plan\n- Overview of approach\n- Key files to modify\n- Architecture decisions\n\n## Task Definitions\nFor each task specify: File, Line, Action, Complete Code\n\n## Task Creation Commands\nAfter this planning task passes audit, plan_auditor executes:\n```\nmcp__omniclaude__omni ops=[\n  {\"op\": \"task_add\", \"params\": {...}},\n  {\"op\": \"task_add\", \"params\": {...}}\n]\n```\n\n## Completion Criteria\n- Plan reviewed and approved by user\n- Explicit task_add ops defined for all implementation tasks\n",
+          "status": "pending",
+          "added_at": "2025-11-30T18:25:41.117722Z",
+          "completion_summary": null,
+          "abandonment_reason": null,
+          "history": [
+            {
+              "timestamp": "2025-11-30T18:26:58.292794Z",
+              "action": "intent",
+              "details": "Restore all files to HEAD to discard CRLF line ending changes caused by copying through Windows filesystem"
+            },
+            {
+              "timestamp": "2025-11-30T18:31:48.548112Z",
+              "action": "intent",
+              "details": "Restore LF line endings by discarding CRLF changes"
+            }
+          ],
+          "knowledge": []
+        }
+      ],
+      "knowledge": [
+        {
+          "id": "ed078988",
+          "content": "STOP REQUEST [NEED_USER_INPUT]: Git working tree is clean. Stale rebase still in progress - should I abort it with 'git rebase --abort'?",
+          "type": "context",
+          "added_at": "2025-11-30T18:32:09.338481Z",
+          "updated_at": null,
+          "related_tasks": []
+        },
+        {
+          "id": "babe8f6c",
+          "content": "STOP REQUEST [NEED_USER_INPUT]: Waiting for user decision: 1) Abort stale rebase? 2) Fix remote configuration (swap origin/upstream)?",
+          "type": "context",
+          "added_at": "2025-11-30T18:33:51.042300Z",
+          "updated_at": null,
+          "related_tasks": []
+        }
+      ],
+      "status": "active",
+      "created_at": "2025-11-30T18:25:41.113493Z",
+      "activated_at": "2025-11-30T18:26:00.581873Z",
+      "deactivated_reason": null,
+      "completion_summary": null,
+      "abandonment_reason": null,
+      "pending_completion": null
+    }
+  ]
+}
