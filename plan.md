@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0",
     "format": "json",
-    "last_updated": "2025-11-30T20:18:21.472347+00:00"
+    "last_updated": "2025-11-30T20:18:47.840728+00:00"
   },
   "groups": [
     {
@@ -107,6 +107,11 @@
               "timestamp": "2025-11-30T20:18:21.472110Z",
               "action": "intent",
               "details": "Configure upstream with basicmicro token and test push"
+            },
+            {
+              "timestamp": "2025-11-30T20:18:47.840545Z",
+              "action": "intent",
+              "details": "Push to basicmicro with credential helpers disabled"
             }
           ],
           "knowledge": []
