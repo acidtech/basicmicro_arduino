@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0",
     "format": "json",
-    "last_updated": "2025-11-30T19:37:07.559133+00:00"
+    "last_updated": "2025-11-30T19:36:58.461125+00:00"
   },
   "groups": [
     {
@@ -32,11 +32,6 @@
               "timestamp": "2025-11-30T19:36:58.460960Z",
               "action": "intent",
               "details": "Update version from 1.0.0 to 1.0.2"
-            },
-            {
-              "timestamp": "2025-11-30T19:37:07.559036Z",
-              "action": "intent",
-              "details": "Fix URL to lowercase repo name"
             }
           ],
           "knowledge": []
