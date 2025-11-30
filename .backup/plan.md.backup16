@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0",
     "format": "json",
-    "last_updated": "2025-11-30T19:37:57.059213+00:00"
+    "last_updated": "2025-11-30T19:37:07.559133+00:00"
   },
   "groups": [
     {
@@ -37,11 +37,6 @@
               "timestamp": "2025-11-30T19:37:07.559036Z",
               "action": "intent",
               "details": "Fix URL to lowercase repo name"
-            },
-            {
-              "timestamp": "2025-11-30T19:37:57.059096Z",
-              "action": "intent",
-              "details": "Fix invalid Copyname to name field"
             }
           ],
           "knowledge": []
